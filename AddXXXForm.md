@@ -1,4 +1,4 @@
-Here is a detailed architectural documentation for the Step Form Dialog pattern, based on the `AddVehiclesForm` component.
+
 
 ---
 
