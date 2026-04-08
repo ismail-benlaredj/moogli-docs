@@ -56,7 +56,6 @@ A specialized cell for the last column, typically containing action buttons.
 - `formatValue(value: number, unit: ReactNode)`: Formats numeric values to 2 decimal places and appends a unit.
 - `generateStatus(months: number, threshold?: number)`: Returns "Pending", "In Progress", or "Completed" based on progress.
 - `formatDateRange(startDate, endDate, ...)`: Formats a date range string.
-- `PROGRESS_STATUS_MAP`: A mapping of status strings to color variants ("neutral", "warning", "positive").
 
 ---
 
