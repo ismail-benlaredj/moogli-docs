@@ -115,8 +115,3 @@ const vehicleRow = useCallback(
   emptyStateTitle="No Vehicles Found"
 />
 ```
-
-## Best Practices
-1. **Memoization**: If `renderRow` is complex, wrap it in `useCallback` to avoid unnecessary re-renders.
-2. **Sticky Actions**: Ensure the last header in your `headers` array corresponds to the `TableActionsCell` used in `renderRow`.
-3. **Skeleton Loading**: Adjust `loadingRowCount` to match the typical expected data volume for a better UI experience.
